@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+}
+body {
+    height: -webkit-fill-available;
+    background: #F7F6F3;
+    display: flex;
+    justify-content: center !important;
+}
+body {
+    height: -moz-available;
+}
+.container {
+    display: flex;
+    height: 20rem;
+    max-width: 50em;
+    min-width: 10em;
+    position: relative;
+    top: 20%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.photo-container > div {
+    display: flex;
+    /* padding: 1em; */
+}
+.camera-container {
+    width: 60%;
+}
+.camera-container video {
+    height: 20rem;
+}
+.photo-container {
+    width: 39%;
+}
+
+.photo-container > div {
+    display: flex;
+    margin-left: 15px;
+    max-height: 80%;
+}
+.photo-container #photo {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+.camera-container #camera {
+    min-width: 20rem;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: solid #390040 3px;
+}
+.camera-container #snapBtn {
+    background: #390040;
+    padding: 5px;
+    color: white;
+    font-size: x-large;
+    border-radius: 5px;
+    border: none;
+    display:flex;
+    align-items: center;
+}
